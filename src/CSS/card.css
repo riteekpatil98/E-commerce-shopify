@@ -1,0 +1,28 @@
+.card-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+.cardEmpty h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px;
+  background-color: rgb(160, 169, 169);
+}
+
+.cardItem-remove-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.cardItem-remove-btn button {
+  padding: 10px;
+  background-color: #ff4141;
+  border: none;
+  width: 80%;
+  border-radius: 5px;
+}
